@@ -1,0 +1,18 @@
+{
+    "name": "cascade-energy/php-service-client",
+    "description": "Base interfaces for a service client in PHP",
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "authors": [
+        {
+            "name": "Charles Berube",
+            "email": "charles.berube@cascadeenergy.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "CascadeEnergy\\ServiceDiscovery\\Client\\": "src"
+        }
+    },
+    "require": {}
+}
